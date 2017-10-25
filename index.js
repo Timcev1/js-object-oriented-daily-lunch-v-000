@@ -109,7 +109,6 @@ class Employer {
     const uniqueMeals = [...new Set(meals)]
     return uniqueMeals
   }
-
 }
 
 
