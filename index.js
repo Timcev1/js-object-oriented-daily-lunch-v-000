@@ -19,8 +19,8 @@ class Customer{
     })
   }
   totalSpent(){
-    return this.meals().reduce((sum, meal)=>{
-      return sum + meal.price
+    return this.meals().reduce((total, meal)=>{
+      return total + meal.price
     }, 0)
   }
 }
